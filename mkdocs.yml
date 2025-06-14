@@ -1,5 +1,5 @@
 site_name: Documentation for Device Metadata
-site_url: https://sitename.example
+site_url: https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/
 theme:
   name: material
   font:
