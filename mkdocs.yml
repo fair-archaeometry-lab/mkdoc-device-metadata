@@ -5,6 +5,8 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
+  features:
+    - content.code.copy
   palette:
     # Dark Mode
     - scheme: slate
@@ -21,6 +23,11 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+
+  icon:
+    admonition:
+      note: material/note
+
 extra:
   consent:
     title: Cookie consent
@@ -32,4 +39,8 @@ extra:
     actions:
       - accept
       - manage 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
       
