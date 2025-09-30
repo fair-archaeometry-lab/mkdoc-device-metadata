@@ -48,7 +48,7 @@ URI: <https://w3id.org/my-schema#PreferredLabel>
     - **Obligation:** recommended
     - **Occurrences:** 0–1
     - **Allowed values:** free text
-    - **Reference:**
+    - **Reference:** [CIF_Raman:_raman_measurement_device.spot_size](https://wiki.crystallography.net/cif/dictionaries/cif_raman_0.3.1/#index41h3)
     - **Comments:**
     - **Example:** 1μm
 
@@ -64,7 +64,7 @@ URI: <https://w3id.org/my-schema#PreferredLabel>
     - **Allowed values:** controlled list `[argon-krypton, argon, krypton, helium-neno, xenon, nitrogen, excimer, helium-cadium, helium-mercury, helium-selenium, helium-silver, strontium-vapor, gold-vapor, manganese, ruby, titanium-sapphire,cerium, chromium, other]`
     - **Reference:** [CIF_Raman:_raman_measurement_device.excitation_laser_type](https://wiki.crystallography.net/cif/dictionaries/cif_raman_0.3.1/#index33h3)
     - **Comments:**
-    - **Example:**  Nd:YAG
+    - **Example:**  argon
 
 ### 1.5 Laser Defocus
 
@@ -73,7 +73,7 @@ URI: <https://w3id.org/my-schema#PreferredLabel>
     - **Preferred label:** laserDefocus
     - **Definition:** An intentional adjustment of the laser’s focus above or below the sample surface to reduce power density, prevent damage, or average signal over a larger area
     - **Data type:** boolean
-    - **Obligation:** Optional
+    - **Obligation:** optional
     - **Occurrences:** 0–1
     - **Allowed values:** controlled list
     - **Reference:**
@@ -565,7 +565,7 @@ URI: <https://w3id.org/my-schema#PreferredLabel>
     - **Data type:** string
     - **Obligation:** optional
     - **Occurrences:** 0–1
-    - **Allowed values:** controlled list 
+    - **Allowed values:** controlled list `[°C, °F, K]`
     - **Reference:**
     - **Comments:**
     - **Example:** °C
