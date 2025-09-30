@@ -1,0 +1,2182 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/raman-spectroscopy/">
+      
+      
+        <link rel="prev" href="../ftir/">
+      
+      
+        <link rel="next" href="../sem/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Raman Spectroscopy - Documentation for Device Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2010V4.5l5.5%205.5M5%203c-1.11%200-2%20.89-2%202v14a2%202%200%200%200%202%202h14a2%202%200%200%200%202-2V9l-6-6z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#raman-spectroscopy" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Documentation for Device Metadata" class="md-header__button md-logo" aria-label="Documentation for Device Metadata" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation for Device Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Raman Spectroscopy
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Documentation for Device Metadata" class="md-nav__button md-logo" aria-label="Documentation for Device Metadata" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentation for Device Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metadata Profiles for Analytical Devices in Archaeometry
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ftir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fourier Transform Infrared spectroscopy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Raman Spectroscopy
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Raman Spectroscopy
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-laser" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Laser
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Laser">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-wavelength" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Wavelength
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-laser-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Laser Power
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-spot-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Spot Size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-laser-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Laser Source
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-laser-defocus" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Laser Defocus
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-spectrometer" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Spectrometer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Spectrometer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-integration-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Integration Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-accumulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Accumulation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-background-scan" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Background Scan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-collection-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Collection Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-photobleaching-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5 Photobleaching Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 Resolution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-cutoff-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7 Cutoff Frequency
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-maximum-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.8 Maximum Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-minimum-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9 Minimum Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10 Calibration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.10 Calibration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2101-calibration-material" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10.1 Calibration Material
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2102-calibration-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10.2 Calibration Position
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-optical-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11 Optical Filter
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.11 Optical Filter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2111-filter-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11.1 Filter Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2112-filter-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11.2 Filter Specification
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-grating" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12 Grating
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.12 Grating">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2121-grating-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12.1 Grating Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2122-gratingdensity" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12.2 GratingDensity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-aperture" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13 Aperture
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.13 Aperture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2131-aperture-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13.1 Aperture Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2132-aperture-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13.2 Aperture Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-microscope" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Microscope
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Microscope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-microscope-objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Microscope Objective
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-microscope-manufacturer" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Microscope Manufacturer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-microscope-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Microscope Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-microscope-confocality" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Microscope Confocality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-microscope-polarization" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 Microscope Polarization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#351-radiation-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.1 Radiation Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352-orientation" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.2 Orientation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#353-degree" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.3 Degree
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-detector" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Detector
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Detector">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-detector-manufacturer" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Detector Manufacturer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-detector-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Detector Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-detector-cooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Detector Cooling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-detector-cooling-temperature" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 Detector Cooling Temperature
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Detector Cooling Temperature">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441-temperature-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.1 Temperature Value
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442-temperature-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.2 Temperature Unit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-detector-pixel" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 Detector Pixel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5 Detector Pixel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451-array-dimension" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5.1 Array Dimension
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452-pixel-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5.2 Pixel Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Scanning Electron Microscope
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../x-ray-diffraction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    X-Ray Diffraction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-laser" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Laser
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Laser">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-wavelength" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Wavelength
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-laser-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Laser Power
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-spot-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Spot Size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-laser-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Laser Source
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-laser-defocus" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Laser Defocus
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-spectrometer" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Spectrometer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Spectrometer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-integration-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Integration Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-accumulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Accumulation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-background-scan" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Background Scan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-collection-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Collection Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-photobleaching-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5 Photobleaching Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 Resolution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-cutoff-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7 Cutoff Frequency
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-maximum-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.8 Maximum Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-minimum-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9 Minimum Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10 Calibration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.10 Calibration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2101-calibration-material" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10.1 Calibration Material
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2102-calibration-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10.2 Calibration Position
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-optical-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11 Optical Filter
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.11 Optical Filter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2111-filter-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11.1 Filter Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2112-filter-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11.2 Filter Specification
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-grating" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12 Grating
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.12 Grating">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2121-grating-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12.1 Grating Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2122-gratingdensity" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12.2 GratingDensity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-aperture" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13 Aperture
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.13 Aperture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2131-aperture-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13.1 Aperture Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2132-aperture-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13.2 Aperture Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-microscope" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Microscope
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Microscope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-microscope-objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Microscope Objective
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-microscope-manufacturer" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Microscope Manufacturer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-microscope-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Microscope Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-microscope-confocality" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Microscope Confocality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-microscope-polarization" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 Microscope Polarization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#351-radiation-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.1 Radiation Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352-orientation" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.2 Orientation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#353-degree" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5.3 Degree
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-detector" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Detector
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Detector">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-detector-manufacturer" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Detector Manufacturer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-detector-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Detector Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-detector-cooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Detector Cooling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-detector-cooling-temperature" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 Detector Cooling Temperature
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Detector Cooling Temperature">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441-temperature-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.1 Temperature Value
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442-temperature-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.2 Temperature Unit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-detector-pixel" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 Detector Pixel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5 Detector Pixel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451-array-dimension" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5.1 Array Dimension
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452-pixel-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5.2 Pixel Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="raman-spectroscopy">Raman Spectroscopy</h1>
+<p>The schema below provides a human-readable documentation about properties of the given analytical method. The current version is situated in a <a href="https://docs.google.com/spreadsheets/d/1kvKDOLsvT4hhcDzLs0DATZsnq2TAGUlYFTWcoL8tOHg/edit?gid=1535944120#gid=1535944120">google document</a> and we welcome any feedback to improve its usability. </p>
+<p>The schema parameters are referenced from several sources published by <a href="https://wiki.crystallography.net/cif/dictionaries/cif_raman_0.3.1/">Crystallography Open Database</a>, [IRUG Spectral Database], <a href="https://cdn.sanity.io/files/0vv8moc6/spectroscopy/ab7e46014be47cfaf9ebe9851d205da35cd269f1.pdf/Spectroscopy_February2020supp.pdf">Raman Spectroscopy Terminology Guide</a>, and [technical specifications in journal articles]. </p>
+<p>In the future, we will offer other data formats, such as <strong>JSON</strong> and <strong>RDF/XML</strong> , as they may be required for electronic laboratory notebooks or a knowledge graph powered by the SPARQL query.  </p>
+<h2 id="1-laser">1. Laser</h2>
+<p><em>Amplified light used to genenrate Raman spectra</em>.</p>
+<h3 id="11-wavelength">1.1 Wavelength</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> waveLength</li>
+<li><strong>Definition:</strong> The wavelength of the excitation laser used in Raman analysis, typically measured in nanometers (nm). It determines the energy of the incident photons and influences both the Raman scattering efficiency and potential fluorescence.</li>
+<li><strong>Data type:</strong> integer</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 532nm</li>
+</ul>
+</div>
+<h3 id="12-laser-power">1.2 Laser Power</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> laserPower</li>
+<li><strong>Definition:</strong> The laser power delivered at the sample surface, usually measured in milliwatts (mW). It affects signal intensity but also the risk of heating or damaging sensitive samples.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 10mW</li>
+</ul>
+</div>
+<h3 id="13-spot-size">1.3 Spot Size</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> spotSize</li>
+<li><strong>Definition:</strong> The diameter of the laser beam focused on the sample, typically in micrometers (µm). Smaller spot sizes allow for higher spatial resolution in micro-Raman analysis.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong> <a href="https://wiki.crystallography.net/cif/dictionaries/cif_raman_0.3.1/#index41h3">CIF_Raman:_raman_measurement_device.spot_size</a></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 1μm</li>
+</ul>
+</div>
+<h3 id="14-laser-source">1.4 Laser Source</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> laserSource</li>
+<li><strong>Definition:</strong> The source of laser used for excitation in Raman spectroscopy, characterized by its wavelength, coherence, stability, and beam quality.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[argon-krypton, argon, krypton, helium-neno, xenon, nitrogen, excimer, helium-cadium, helium-mercury, helium-selenium, helium-silver, strontium-vapor, gold-vapor, manganese, ruby, titanium-sapphire,cerium, chromium, other]</code></li>
+<li><strong>Reference:</strong> <a href="https://wiki.crystallography.net/cif/dictionaries/cif_raman_0.3.1/#index33h3">CIF_Raman:_raman_measurement_device.excitation_laser_type</a></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong>  argon</li>
+</ul>
+</div>
+<h3 id="15-laser-defocus">1.5 Laser Defocus</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> laserDefocus</li>
+<li><strong>Definition:</strong> An intentional adjustment of the laser’s focus above or below the sample surface to reduce power density, prevent damage, or average signal over a larger area</li>
+<li><strong>Data type:</strong> boolean</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> Yes</li>
+</ul>
+</div>
+<h2 id="2-spectrometer">2. Spectrometer</h2>
+<p><em>The main component used to separate and measure the wavelengths of scattered light</em>.</p>
+<h3 id="21-integration-time">2.1 Integration Time</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> integrationTime</li>
+<li><strong>Definition:</strong> Duration over which the detector collects photons for a single scan, measured in seconds. Affects signal strength and noise. Also known as exposure time</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 10 s</li>
+</ul>
+</div>
+<h3 id="22-accumulation">2.2 Accumulation</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> accumulation</li>
+<li><strong>Definition:</strong> Number of scans averaged together to improve signal-to-noise ratio</li>
+<li><strong>Data type:</strong> integer</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 10</li>
+</ul>
+</div>
+<h3 id="23-background-scan">2.3 Background Scan</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> backgroundScan</li>
+<li><strong>Definition:</strong> A scan taken without the sample to measure background signal (e.g., system or substrate noise), later subtracted from the sample data. Measured in second.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 2 s</li>
+</ul>
+</div>
+<h3 id="24-collection-time">2.4 Collection Time</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> collectionTime</li>
+<li><strong>Definition:</strong> Total time used to acquire the spectrum, often: integration time × number of accumulations. Measured in second.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 100 s</li>
+</ul>
+</div>
+<h3 id="25-photobleaching-time">2.5 Photobleaching Time</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> photobleachingTime</li>
+<li><strong>Definition:</strong> Duration over which photobleaching (loss of signal due to light-induced degradation) is observed or mitigated before acquisition. Measured in second. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 2 s</li>
+</ul>
+</div>
+<h3 id="26-resolution">2.6 Resolution</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> resolution</li>
+<li><strong>Definition:</strong> The ability of the spectrometer to distinguish between closely spaced Raman peaks, usually in cm⁻¹.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 2 cm⁻¹</li>
+</ul>
+</div>
+<h3 id="27-cutoff-frequency">2.7 Cutoff Frequency</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> cutoffFrequency</li>
+<li><strong>Definition:</strong> The lowest wavenumber from which Raman signals can be reliably measured; limited by filters or optics, usually in cm⁻¹. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 180 cm-1</li>
+</ul>
+</div>
+<h3 id="28-maximum-range">2.8 Maximum Range</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> maxRange</li>
+<li><strong>Definition:</strong> The maximum Raman shift (in cm⁻¹) detectable in a spectrum.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 1850 cm⁻¹</li>
+</ul>
+</div>
+<h3 id="29-minimum-range">2.9 Minimum Range</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> minRange</li>
+<li><strong>Definition:</strong> The minimum Raman shift (in cm⁻¹) detectable in a spectrum.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 50 cm⁻¹</li>
+</ul>
+</div>
+<h3 id="210-calibration">2.10 Calibration</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> calibration</li>
+<li><strong>Definition:</strong> Process of adjusting the spectrometer's wavelength axis to known reference peaks (e.g., silicon at 520.7 cm⁻¹).</li>
+<li><strong>Data type:</strong> array</li>
+<li><strong>Obligation:</strong> Recommended</li>
+<li><strong>Occurrences:</strong> 0–n</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="2101-calibration-material">2.10.1 Calibration Material</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> calibrationMaterial</li>
+<li><strong>Definition:</strong> Standard used for calibration (e.g., silicon, diamond, polystyrene).</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> controlled list</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> silicon_wafer</li>
+</ul>
+</div>
+<h4 id="2102-calibration-position">2.10.2 Calibration Position</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> calibrationPosition</li>
+<li><strong>Definition:</strong> The peak position against which the standard material is calibrated in cm⁻¹. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text </li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 520.7 cm⁻¹</li>
+</ul>
+</div>
+<h3 id="211-optical-filter">2.11 Optical Filter</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> opticalFilter</li>
+<li><strong>Definition:</strong> Filters (e.g., edge or notch) used to block Rayleigh scattering and allow only Raman-shifted light to reach the detector.</li>
+<li><strong>Data type:</strong> array</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–n</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="2111-filter-type">2.11.1 Filter Type</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> filterType</li>
+<li><strong>Definition:</strong> Type of filters. </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> controlled list</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> edge</li>
+</ul>
+</div>
+<h4 id="2112-filter-specification">2.11.2 Filter Specification</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> filterSpecification</li>
+<li><strong>Definition:</strong> State the transmission percentage and optical density (OD) of the filter. </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 25%(OD0.6)</li>
+</ul>
+</div>
+<h3 id="212-grating">2.12 Grating</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> grating</li>
+<li><strong>Definition:</strong> The dispersive element that separates light by wavelength through diffraction.</li>
+<li><strong>Data type:</strong> array</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–n</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="2121-grating-type">2.12.1 Grating Type</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> gratingType</li>
+<li><strong>Definition:</strong> Specifies whether the grating is ruled, holographic, or echelle, affecting resolution and stray light</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> holographic</li>
+</ul>
+</div>
+<h4 id="2122-gratingdensity">2.12.2 GratingDensity</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> gratingDensity</li>
+<li><strong>Definition:</strong> Number of grooves per mm on the grating; higher density offers better resolution but narrower spectral range.</li>
+<li><strong>Data type:</strong> integer</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 1800 line/mm</li>
+</ul>
+</div>
+<h3 id="213-aperture">2.13 Aperture</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> aperture</li>
+<li><strong>Definition:</strong> An opening in the optical path that controls the beam size and affects signal strength and resolution.</li>
+<li><strong>Data type:</strong> array</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–n</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="2131-aperture-type">2.13.1 Aperture Type</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> apertureType</li>
+<li><strong>Definition:</strong> The form of aperture used (e.g., pinhole, slit, variable diaphragm) to define the light path.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> controlled list</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> pinhole</li>
+</ul>
+</div>
+<h4 id="2132-aperture-size">2.13.2 Aperture Size</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> apertureSize</li>
+<li><strong>Definition:</strong> The physical size (e.g., in µm) of the aperture, determining how much light enters the detection system.</li>
+<li><strong>Data type:</strong> integer</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 50 µm</li>
+</ul>
+</div>
+<h2 id="3-microscope">3. Microscope</h2>
+<p><em>The part of the Raman instrument that focuses the laser on the sample and collects scattered light.</em></p>
+<h3 id="31-microscope-objective">3.1 Microscope Objective</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> microObjective</li>
+<li><strong>Definition:</strong> The lens in the microscope that focuses the laser beam and collects scattered light from a small sample area.</li>
+<li><strong>Data type:</strong> integer</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text </li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 5x, 10x, 20x, 50x</li>
+</ul>
+</div>
+<h3 id="32-microscope-manufacturer">3.2 Microscope Manufacturer</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> microManufacturer</li>
+<li><strong>Definition:</strong> Manufacturer name of the microscope.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong> This field can also take the persistent identifier of the manufacturer.</li>
+<li><strong>Example:</strong> Olympus</li>
+</ul>
+</div>
+<h3 id="33-microscope-model">3.3 Microscope Model</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> microModel</li>
+<li><strong>Definition:</strong> Model name of the microscope</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong> This field can also take the URLs link to the model. </li>
+<li><strong>Example:</strong>  BXFM</li>
+</ul>
+</div>
+<h3 id="34-microscope-confocality">3.4 Microscope Confocality</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> microConfocality</li>
+<li><strong>Definition:</strong> The use of a pinhole or similar setup to improve depth resolution and reduce out-of-focus light.</li>
+<li><strong>Data type:</strong> boolean</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list </li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> Yes</li>
+</ul>
+</div>
+<h3 id="35-microscope-polarization">3.5 Microscope Polarization</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> microPolarization</li>
+<li><strong>Definition:</strong> The control or measurement of the polarization direction of the laser light and/or scattered Raman light at the microscopic scale. Polarization can provide additional information about molecular orientation or symmetry.</li>
+<li><strong>Data type:</strong> array</li>
+<li><strong>Obligation:</strong> Optional</li>
+<li><strong>Occurrences:</strong> 0–n</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h3 id="351-radiation-type">3.5.1 Radiation Type</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> radiationType</li>
+<li><strong>Definition:</strong> The type of electromagnetic radiation used for excitation in Raman analysis. Incident or scattered.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> incident, scattered</li>
+</ul>
+</div>
+<h3 id="352-orientation">3.5.2 Orientation</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> orientation</li>
+<li><strong>Definition:</strong> Direction of the electric field vector of the polarized light (usually laser excitation or scattered Raman light) relative to the sample or the instrument’s reference frame.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> clockwise, counterclockwise</li>
+</ul>
+</div>
+<h3 id="353-degree">3.5.3 Degree</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> degree</li>
+<li><strong>Definition:</strong> The extent or magnitude of polarization or orientation, often expressed as a percentage or angle, indicating how strongly light is polarized or molecules are aligned.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–n</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> </li>
+</ul>
+</div>
+<h2 id="4-detector">4. Detector</h2>
+<p><em>The device that captures Raman-scattered light and converts it into an electrical signal</em>.</p>
+<h3 id="41-detector-manufacturer">4.1 Detector Manufacturer</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> detectorManufacturer</li>
+<li><strong>Definition:</strong> Manufacturer name of the CCD detector</li>
+<li><strong>Data type:</strong> String</li>
+<li><strong>Obligation:</strong> Recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> Controlled vocabulary</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> </li>
+</ul>
+</div>
+<h3 id="42-detector-model">4.2 Detector Model</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> detectorModel</li>
+<li><strong>Definition:</strong> Model name of the CCD detector</li>
+<li><strong>Data type:</strong> String</li>
+<li><strong>Obligation:</strong> Recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> Controlled vocabulary</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> </li>
+</ul>
+</div>
+<h3 id="43-detector-cooling">4.3 Detector Cooling</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> detectorCooling</li>
+<li><strong>Definition:</strong> Cooling method based on the thermoelectric effect to cool the\nsensitive light detectors (CCDs)</li>
+<li><strong>Data type:</strong> String</li>
+<li><strong>Obligation:</strong> Optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> Controlled vocabulary</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> peltier, liquid nitrogen</li>
+</ul>
+</div>
+<h3 id="44-detector-cooling-temperature">4.4 Detector Cooling Temperature</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> detectorCoolingTemp</li>
+<li><strong>Definition:</strong> The cooling temperature for the CCD detector. For example, room temperature, 200K, or -90ºC.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="441-temperature-value">4.4.1 Temperature Value</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> tempValue</li>
+<li><strong>Definition:</strong> The value of temperature. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text </li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> -90</li>
+</ul>
+</div>
+<h4 id="442-temperature-unit">4.4.2 Temperature Unit</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> tempUnit</li>
+<li><strong>Definition:</strong> The unit of temperature</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[°C, °F, K]</code></li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> °C</li>
+</ul>
+</div>
+<h3 id="45-detector-pixel">4.5 Detector Pixel</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> detectorPixel</li>
+<li><strong>Definition:</strong> Array dimension and pixel size of the CCD detector.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="451-array-dimension">4.5.1 Array Dimension</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> arrayDimension</li>
+<li><strong>Definition:</strong> Expressed as horizontal × Vertical (e.g., 1024 × 256 pixels). </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text </li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 1024 × 256</li>
+</ul>
+</div>
+<h4 id="452-pixel-size">4.5.2 Pixel Size</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> pixelSize</li>
+<li><strong>Definition:</strong> Width × height in micrometers (µm).</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 26 µm × 26 µm</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

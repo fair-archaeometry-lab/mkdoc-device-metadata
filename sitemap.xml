@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/ftir/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/raman-spectroscopy/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/sem/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/x-ray-diffraction/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+</urlset>

@@ -1,0 +1,2046 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://fair-archaeometry-lab.github.io/mkdoc-device-metadata/x-ray-diffraction/">
+      
+      
+        <link rel="prev" href="../sem/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>X-Ray Diffraction - Documentation for Device Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2010V4.5l5.5%205.5M5%203c-1.11%200-2%20.89-2%202v14a2%202%200%200%200%202%202h14a2%202%200%200%200%202-2V9l-6-6z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#x-ray-diffraction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Documentation for Device Metadata" class="md-header__button md-logo" aria-label="Documentation for Device Metadata" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation for Device Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              X-Ray Diffraction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Documentation for Device Metadata" class="md-nav__button md-logo" aria-label="Documentation for Device Metadata" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentation for Device Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metadata Profiles for Analytical Devices in Archaeometry
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ftir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fourier Transform Infrared spectroscopy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../raman-spectroscopy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Raman Spectroscopy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Scanning Electron Microscope
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    X-Ray Diffraction
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    X-Ray Diffraction
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-x-ray-tube" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. X-ray Tube
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. X-ray Tube">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-anode-material" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Anode Material
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-used-wavelength" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Used Wavelength
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 Used Wavelength">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-k1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.1 Kα1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-k2" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.2 Kα2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.3 Kβ
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-tube-voltage" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Tube Voltage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-tube-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Tube Current
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-take-off-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Take-Off Angle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-beam-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Beam Path
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Beam Path">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-soller-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Soller Slit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 Soller Slit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-beam-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.1 Beam Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-opening-of-soller-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.2 Opening of Soller Slit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-mask" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Mask
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Mask">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-mask-distance-to-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.1 Mask Distance to Sample
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-mask-distance-to-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.2 Mask Distance to Sample
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-beta-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Beta Filter
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Beta Filter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-beta-filter-material" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.1 Beta Filter Material
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-beta-filter-thickness" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.2 Beta Filter Thickness
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-divergenceslit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 divergenceSlit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4 divergenceSlit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-divergence-slit-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.1 Divergence Slit Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-divergence-slit-distance-to-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.2 Divergence Slit Distance to Sample
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243-irradiated-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.3 Irradiated Length
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#244-divergence-slit-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.4 Divergence Slit Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-anti-scatter-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5 Anti-Scatter Slit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Anti-Scatter Slit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#251-anti-scatter-slit-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.1 Anti-Scatter Slit Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#252-observed-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.2 Observed Length
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#253-anti-scatter-silt-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.3 Anti-Scatter Silt Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-x-ray-mirror" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 X-Ray Mirror
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-monochromator" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7 Monochromator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-receiving-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.8 Receiving Slit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-detector-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Detector System
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Detector System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-detector-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Detector Name
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-detector-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Detector Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-active-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Active Length
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-active-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Active Area
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-scan" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Scan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Scan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-step-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Step Size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-start-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Start Position
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-end-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 End Position
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-collectiontime" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 collectionTime
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 Geometry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-sample-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 Sample Mode
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-goniometer-rotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 Goniometer Rotation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-x-ray-tube" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. X-ray Tube
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. X-ray Tube">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-anode-material" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Anode Material
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-used-wavelength" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Used Wavelength
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 Used Wavelength">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-k1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.1 Kα1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-k2" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.2 Kα2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.3 Kβ
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-tube-voltage" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Tube Voltage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-tube-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Tube Current
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-take-off-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Take-Off Angle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-beam-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Beam Path
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Beam Path">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-soller-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Soller Slit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 Soller Slit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-beam-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.1 Beam Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-opening-of-soller-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.2 Opening of Soller Slit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-mask" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Mask
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Mask">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-mask-distance-to-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.1 Mask Distance to Sample
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-mask-distance-to-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2.2 Mask Distance to Sample
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-beta-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Beta Filter
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Beta Filter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-beta-filter-material" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.1 Beta Filter Material
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-beta-filter-thickness" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3.2 Beta Filter Thickness
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-divergenceslit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 divergenceSlit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4 divergenceSlit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-divergence-slit-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.1 Divergence Slit Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-divergence-slit-distance-to-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.2 Divergence Slit Distance to Sample
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243-irradiated-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.3 Irradiated Length
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#244-divergence-slit-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4.4 Divergence Slit Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-anti-scatter-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5 Anti-Scatter Slit
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Anti-Scatter Slit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#251-anti-scatter-slit-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.1 Anti-Scatter Slit Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#252-observed-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.2 Observed Length
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#253-anti-scatter-silt-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5.3 Anti-Scatter Silt Size
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-x-ray-mirror" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 X-Ray Mirror
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-monochromator" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7 Monochromator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-receiving-slit" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.8 Receiving Slit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-detector-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Detector System
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Detector System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-detector-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Detector Name
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-detector-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Detector Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-active-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Active Length
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-active-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Active Area
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-scan" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Scan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Scan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-step-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Step Size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-start-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Start Position
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-end-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 End Position
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-collectiontime" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 collectionTime
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 Geometry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-sample-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 Sample Mode
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-goniometer-rotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 Goniometer Rotation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="x-ray-diffraction">X-Ray Diffraction</h1>
+<p>The proposed metadata schema complies with the existing <a href="https://arxiv.org/abs/physics/0210067">XrdML</a> data format for X-ray powder diffraction technique. The technical manual from <a href="https://imf.ucmerced.edu/sites/g/files/ufvvjh1081/f/page/documents/x-ray_powder_diffraction.pdf">Panalytical</a> provides an overview of each term. </p>
+<h2 id="1-x-ray-tube">1. X-ray Tube</h2>
+<p><em>The component where X-rays are generated by bombarding a target of a suitable material with a focused electron beam</em>.</p>
+<h3 id="11-anode-material">1.1 Anode Material</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> targetMaterial</li>
+<li><strong>Definition:</strong> The source of radiation.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[Cu, Co, Fe, Mo, Cr, other]</code></li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> Cu</li>
+</ul>
+</div>
+<h3 id="12-used-wavelength">1.2 Used Wavelength</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> radiationWavelength</li>
+<li><strong>Definition:</strong> The wavelength of radiation in Angstrom (Å).</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="121-k1">1.2.1 Kα1</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> kAlpha1</li>
+<li><strong>Definition:</strong> The wavelength of the Kα1 line in Angstrom (Å).</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 1.5405980</li>
+</ul>
+</div>
+<h4 id="122-k2">1.2.2 Kα2</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> kAlpha2</li>
+<li><strong>Definition:</strong> The wavelength of the Kα2 line in Angstrom (Å).</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 1.5444260</li>
+</ul>
+</div>
+<h4 id="123-k">1.2.3 Kβ</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> kBeta</li>
+<li><strong>Definition:</strong> The wavelength of the Kβ line in Angstrom (Å).</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 1.3922500</li>
+</ul>
+</div>
+<h3 id="13-tube-voltage">1.3 Tube Voltage</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> tubeVoltage</li>
+<li><strong>Definition:</strong> Acceleration voltage of the X-ray tube (kV).</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 45</li>
+</ul>
+</div>
+<h3 id="14-tube-current">1.4 Tube Current</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> tubeCurrent</li>
+<li><strong>Definition:</strong> Electric current of the X-ray tube (mA)</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 40</li>
+</ul>
+</div>
+<h3 id="15-take-off-angle">1.5 Take-Off Angle</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> takeOffAngle</li>
+<li><strong>Definition:</strong> Anode take-off angle in degree (°)</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 6.0</li>
+</ul>
+</div>
+<h2 id="2-beam-path">2. Beam Path</h2>
+<p><em>Beam path is the route the X-rays travel through the instrument. It consists of the incident beam path, from the X-ray source to the sample, and the diffracted beam path, from the sample to the detector after interaction with the sample.</em> </p>
+<h3 id="21-soller-slit">2.1 Soller Slit</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> sollerSlit</li>
+<li><strong>Definition:</strong> This component is made of a set of thin, parallel metal plates and can be placed in the path of both incident and diffracted X-ray beams. Its function is to limit the axial divergence of the beams so that only those which are parallel or very close to the diffraction plane can pass the slit. </li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="211-beam-type">2.1.1 Beam Type</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> beamType</li>
+<li><strong>Definition:</strong> Select whether this component is placed in the path of the incident or the diffracted X-ray beam. </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[incident, diffracted]</code></li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> incident</li>
+</ul>
+</div>
+<h4 id="212-opening-of-soller-slit">2.1.2 Opening of Soller Slit</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> sollerSlitOpening</li>
+<li><strong>Definition:</strong> The opening angle of a Soller slit is defined by the length and the distance of the plates, typically 0.04 rad (radian). </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 0.04</li>
+</ul>
+</div>
+<h3 id="22-mask">2.2 Mask</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> mask</li>
+<li><strong>Definition:</strong> This componet limits the width of the incident beam to define the irradiated area on the sample or to prevent beam spill-over. Dimensions in millimeters (mm). </li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="221-mask-distance-to-sample">2.2.1 Mask Distance to Sample</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> maskDistanceToSample</li>
+<li><strong>Definition:</strong> The distance between the mask and the sample in millimeters (mm). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 120.00</li>
+</ul>
+</div>
+<h4 id="222-mask-distance-to-sample">2.2.2 Mask Distance to Sample</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> maskWidth</li>
+<li><strong>Definition:</strong> The physical width of the mask opening in in millimeters (mm).</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 6.60</li>
+</ul>
+</div>
+<h3 id="23-beta-filter">2.3 Beta Filter</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> betaFilter</li>
+<li><strong>Definition:</strong> The belta filter is a thin metal foil usually placed in the diffracted beam path. It helps reduce the influence of sample fluorescence by suppressing the beta emission line. </li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="231-beta-filter-material">2.3.1 Beta Filter Material</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> betaFiltermaterial</li>
+<li><strong>Definition:</strong> The material of the filter. </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[Zr, Ni, Fe, V, other]</code></li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> Ni</li>
+</ul>
+</div>
+<h4 id="232-beta-filter-thickness">2.3.2 Beta Filter Thickness</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> betaFilterThickness</li>
+<li><strong>Definition:</strong> The thickness of the filter in millimeters (mm). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> 0.020</li>
+</ul>
+</div>
+<h3 id="24-divergenceslit">2.4 divergenceSlit</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> divergenceSlit</li>
+<li><strong>Definition:</strong> The divergence slit controls the width of the X-ray beam, defining how much of the sample surface is illuminated.</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="241-divergence-slit-type">2.4.1 Divergence Slit Type</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> divergenceSlitType</li>
+<li><strong>Definition:</strong> State whether the slit is fixed or variable (automatic).  </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[fixed, variable]</code></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> fixed</li>
+</ul>
+</div>
+<h4 id="242-divergence-slit-distance-to-sample">2.4.2 Divergence Slit Distance to Sample</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> divergenceSlitDistanceToSample</li>
+<li><strong>Definition:</strong> The distance between the slit and the sample in millimeters (mm). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> 140.00</li>
+</ul>
+</div>
+<h4 id="243-irradiated-length">2.4.3 Irradiated Length</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> divergenceSlitIrradiatedLength</li>
+<li><strong>Definition:</strong> The length of the sample surface illuminated by the X-ray beam in millimeters (mm). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> 10.0</li>
+</ul>
+</div>
+<h4 id="244-divergence-slit-size">2.4.4 Divergence Slit Size</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> divergenceSlitSize</li>
+<li><strong>Definition:</strong> The size of slit in degrees (°). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> 1</li>
+</ul>
+</div>
+<h3 id="25-anti-scatter-slit">2.5 Anti-Scatter Slit</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> antiScatterSlit</li>
+<li><strong>Definition:</strong> The anti-scatter slits make sure that only the reflected X-ray beam, and not scattered X-rays from the air, reach the detector.</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h4 id="251-anti-scatter-slit-type">2.5.1 Anti-Scatter Slit Type</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> antiScatterSlitType</li>
+<li><strong>Definition:</strong> State whether the slit is fixed or variable (automatic).  </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[fixed, variable]</code></li>
+<li><strong>Comments:</strong></li>
+<li><strong>Example:</strong> fixed</li>
+</ul>
+</div>
+<h4 id="252-observed-length">2.5.2 Observed Length</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> antiScatterObservedLength</li>
+<li><strong>Definition:</strong> The projected length of the slit opening at the sample or detector plane in millimeters (mm). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> 10.0</li>
+</ul>
+</div>
+<h4 id="253-anti-scatter-silt-size">2.5.3 Anti-Scatter Silt Size</h4>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> antiScatterSiltSize</li>
+<li><strong>Definition:</strong> The size of slit in degrees (°). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> 1</li>
+</ul>
+</div>
+<h3 id="26-x-ray-mirror">2.6 X-Ray Mirror</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> xRayMirror</li>
+<li><strong>Definition:</strong> This component enhances monochromaticity and collimation of the X-ray beam by reflecting X-rays under grazing incidence. Often used to remove fluorescence background from the sample. </li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h3 id="27-monochromator">2.7 Monochromator</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> monochromator</li>
+<li><strong>Definition:</strong> An optical device employed to isolate a specific wavelength or a narrow range of wavelengths from a broader spectrum of radiation. </li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Reference:</strong></li>
+<li><strong>Comments:</strong></li>
+</ul>
+</div>
+<h3 id="28-receiving-slit">2.8 Receiving Slit</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> receivingSlit</li>
+<li><strong>Definition:</strong> A slit positioned in front of the X-ray detector that limits the angular divergence of the diffracted beam, controlling both the resolution of the diffraction peaks and the intensity of the detected signal. Measured in terms of its opening in millimeters (mm).  </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> 0.05</li>
+</ul>
+</div>
+<h2 id="3-detector-system">3. Detector System</h2>
+<p><em>A Detector system measures the intensity of X-rays diffracted by the sample at specific angles (2θ), converting the incoming X-ray photons into an electrical signal that can be recorded and analyzed.</em> </p>
+<h3 id="31-detector-name">3.1 Detector Name</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> detectorName</li>
+<li><strong>Definition:</strong> Name of the detector.   </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> X'Celerator</li>
+</ul>
+</div>
+<h3 id="32-detector-type">3.2 Detector Type</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> detectorType</li>
+<li><strong>Definition:</strong> Type of the detector. This includes: (1) the point detector in which all incomming photons are counted, and their position on the active element is not relevant; (2) the line detector also known as position-sensitive detector in which photons are counted relative to their position on the detector window in 2θ direction; (3) the area detector similar to the line detector, but intensities are also detected perpendicular to 2θ axis.    </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[point/OD, line/1D, area/2D]</code></li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> line/1D</li>
+</ul>
+</div>
+<h3 id="33-active-length">3.3 Active Length</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> activeLength</li>
+<li><strong>Definition:</strong> The angular range that is covered by a line detector in °2θ (theta). </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong></li>
+</ul>
+</div>
+<h3 id="34-active-area">3.4 Active Area</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> activeArea</li>
+<li><strong>Definition:</strong> It is only applicable for an area (2D) detector. The unit is in mm2. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong></li>
+</ul>
+</div>
+<h2 id="4-scan">4. Scan</h2>
+<p><em>Parameters related to the diffraction pattern of a sample.</em> </p>
+<h3 id="41-step-size">4.1 Step Size</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> stepSize</li>
+<li><strong>Definition:</strong> The increment in angle between successive data points in a scan. Measured in °2θ.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong></li>
+</ul>
+</div>
+<h3 id="42-start-position">4.2 Start Position</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> startPosition</li>
+<li><strong>Definition:</strong> The initial angular position of the scan. Measured in °2θ. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong></li>
+</ul>
+</div>
+<h3 id="43-end-position">4.3 End Position</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> endPosition</li>
+<li><strong>Definition:</strong> The final angular position of the scan. Measured in °2θ. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> mandatory</li>
+<li><strong>Occurrences:</strong> 1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong></li>
+</ul>
+</div>
+<h3 id="44-collectiontime">4.4 collectionTime</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> collectionTime</li>
+<li><strong>Definition:</strong> The duration for which data is collected at each step or angular position. </li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong></li>
+</ul>
+</div>
+<h3 id="45-geometry">4.5 Geometry</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> geometry</li>
+<li><strong>Definition:</strong> The configuration of the XRD setup, including the positioning of the X-ray source, sample, and detector. </li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[Bragg-Brentano, Parallel beam, Convergent beam, other]</code></li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong></li>
+</ul>
+</div>
+<h3 id="46-sample-mode">4.6 Sample Mode</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> sampleMode</li>
+<li><strong>Definition:</strong> The sample mode refers to the physical configuration and orientation of the sample relative to the incident X-ray beam and the detector. It is chosen based on the nature of the investigated sample. The reflection mode is suitable for samples that are opaque to X-rays. The transmission mode works best for low-absorbing materials, The capillary mode are ideal for the sample senstive to moisture or texture effects.</li>
+<li><strong>Data type:</strong> string</li>
+<li><strong>Obligation:</strong> recommended</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> controlled list <code>[reflection, transmission, callipary, other]</code></li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> reflection</li>
+</ul>
+</div>
+<h3 id="47-goniometer-rotation">4.7 Goniometer Rotation</h3>
+<p>URI: <a href="https://w3id.org/my-schema#PreferredLabel">https://w3id.org/my-schema#PreferredLabel</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Preferred label:</strong> goniometerRotation</li>
+<li><strong>Definition:</strong> A goniometer functions as a high-tech sample holder that holds the crystal in the beam of X-rays and meanwhile rotates the sample to precise degrees. The rotation speed is measured in °2θ/s.</li>
+<li><strong>Data type:</strong> double</li>
+<li><strong>Obligation:</strong> optional</li>
+<li><strong>Occurrences:</strong> 0–1</li>
+<li><strong>Allowed values:</strong> free text</li>
+<li><strong>Comments:</strong> </li>
+<li><strong>Example:</strong> 0.1</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
